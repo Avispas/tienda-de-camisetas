@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro de la compra</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body class="page-col2">
+    <div class="div1">
+        <h2 class="title--medium">Listado de camisetas</h2>
+        <section class="cards js-prdducts">
+            <article class="card">
+                <img src="./images/image.png" alt="Camiseta de Java Srcipt" class="card__img">
+                <h3 class="card__title"> Random</h3>
+                <p class="card description">12$</p>
+                <button class="card__btn">Añadir a la cesta</button>
+            </article>
+            <article class="card">
+                <img src="./images/photodali.PNG" alt="Camiseta de #" class="card__img">
+                <h3 class="card__title"> Dali</h3>
+                <p class="card description">12$</p>
+                <button class="card__btn">Añadir a la cesta</button>
+            </article>
+            <!-- <article class="card">
+                <img src="./images/photolea.PNG" alt="Camiseta de #" class="card__img">
+                <h3 class="card__title"> </h3>
+                <p class="card description">12$</p>
+                <button class="card__btn">Añadir a la cesta</button>
+            </article> -->
+        </section>
+    </div>
+    <div class="div2">
+        <h2 class="title--medium">Cesta de la compra</h2>
+        <table class="table">
+            <thead>
+                <tr class="text--bold">
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Unidades</td>
+                    <td class="text-alig-right">Total</td>
+                </tr>
+            </thead>
+            <tbody class="js-cart">
+                <tr>
+                    <td>JavaScript</td>
+                    <td>15$</td>
+                    <td>
+                        <button class="card__btn">-</button>
+                        2
+                        <button class="card__btn">+</button>
+                    </td>
+                    <td class="text-alig-right">30$</td>
+                </tr>
+                <tr>
+                    <td>Node</td>
+                    <td>12$</td>
+                    <td>
+                        <button class="card__btn">-</button>
+                        3
+                        <button class="card__btn">+</button>
+                    </td>
+                    <td class="text-alig-right">36$</td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<script src="./js/main.js"></script>
+</body>
+
+</html>
+
+

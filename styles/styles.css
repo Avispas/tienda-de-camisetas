@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-col2{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(../images/gradiente-fondo-cuadros-distorsionado_23-2148967807.jpg)
+   
+}
+
+.cards{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+} 
+.card{
+   padding: 15px;
+}
+.card__img{
+    height: 200px;
+}
+.card__btn{
+    background-color: violet;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+
+.text--bold{
+   line-height: 50px;
+   text
+}
+
