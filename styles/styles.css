@@ -30,9 +30,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 15px;
 }
+.ordenate {
+ 
 
+}
 .text--bold{
-   line-height: 50px;
-   text
+    display: flex;
+    gap: 50px;
 }
 
+.btn-plus-n-minus{
+    display: flex;
+    gap: 5px;
+
+}
